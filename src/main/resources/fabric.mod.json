@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "tutorial-mod",
+	"version": "${version}",
+	"name": "Tutorial Mod BY BOOMER",
+	"description": "Tutorial Mod i learning",
+	"authors": [
+		"Bomer"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/tutorial-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.boomer.tutorialmod.TutorialMod"
+		],
+		"fabric-datagen": [
+			"net.boomer.tutorialmod.TutorialModDataGenerator"
+		],
+"client": [
+	"net.boomer.tutorialmod.TutorialModClient"
+]
+	},
+	"mixins": [
+		"tutorial-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
