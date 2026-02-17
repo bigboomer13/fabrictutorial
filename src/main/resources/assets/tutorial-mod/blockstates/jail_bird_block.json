@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tutorial-mod:block/jail_bird_block"
+    }
+  }
+}

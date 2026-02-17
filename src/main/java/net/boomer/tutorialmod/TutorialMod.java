@@ -1,5 +1,8 @@
 package net.boomer.tutorialmod;
 
+import net.boomer.tutorialmod.block.ModBlocks;
+import net.boomer.tutorialmod.item.ModItemGroups;
+import net.boomer.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +15,8 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
-	}
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+    }
 }

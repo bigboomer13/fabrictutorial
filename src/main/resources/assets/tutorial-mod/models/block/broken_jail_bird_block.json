@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "tutorial-mod:block/broken_jail_bird_block"
+  }
+}
