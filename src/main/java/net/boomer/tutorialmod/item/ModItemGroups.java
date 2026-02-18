@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.JAIL_BIRD);
                         entries.add(ModItems.BROKEN_JAIL_BIRD);
                         entries.add(ModItems.SAUL);
+                        entries.add(ModItems.CHISEL);
 
                     }).build());
 
