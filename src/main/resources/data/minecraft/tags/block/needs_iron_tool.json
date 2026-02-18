@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "tutorial-mod:jail_bird_ore",
+    "tutorial-mod:broken_jail_bird_block"
+  ]
+}
