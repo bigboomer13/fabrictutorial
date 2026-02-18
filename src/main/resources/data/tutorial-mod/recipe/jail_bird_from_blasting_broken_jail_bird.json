@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "jail_bird",
+  "ingredient": {
+    "item": "tutorial-mod:broken_jail_bird"
+  },
+  "result": {
+    "id": "tutorial-mod:jail_bird"
+  }
+}

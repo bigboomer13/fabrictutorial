@@ -31,6 +31,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BROKEN_JAIL_BIRD_BLOCK);
                         entries.add(ModBlocks.SAUL_BLOCK);
 
+                        entries.add(ModBlocks.JAIL_BIRD_ORE);
+                        entries.add(ModBlocks.JAIL_BIRD_DEEPSLATE_ORE);
+
                     }).build());
 
 

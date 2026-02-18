@@ -5,6 +5,10 @@
 
   "item.tutorial-mod.broken_jail_bird": "Broken Jail Bird",
   "item.tutorial-mod.jail_bird": "Jail Bird",
+
+  "item.tutorial-mod.jail_bird_ore": "Jail Bird Ore",
+  "item.tutorial-mod.jail_bird_deepslate_ore": "Jail Bird Deepslate Ore",
+
   "item.tutorial-mod.saul": "Saul",
 
   "itemgroup.tutorial-mod.jail_bird_items": "Jail Bird Items",
