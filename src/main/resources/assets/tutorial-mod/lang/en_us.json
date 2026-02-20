@@ -2,6 +2,7 @@
   "block.tutorial-mod.broken_jail_bird_block": "Block Of Broken Jail Bird",
   "block.tutorial-mod.jail_bird_block": "Block Of Jail Bird",
   "block.tutorial-mod.saul_block": "Block Of Saul",
+  "block.tutorial-mod.magic_block": "Magic Block",
 
   "item.tutorial-mod.broken_jail_bird": "Broken Jail Bird",
   "item.tutorial-mod.jail_bird": "Jail Bird",
@@ -9,9 +10,15 @@
   "block.tutorial-mod.jail_bird_ore": "Jail Bird Ore",
   "block.tutorial-mod.jail_bird_deepslate_ore": "Jail Bird Deepslate Ore",
 
-  "item.tutorial-mod.saul": "Saulllll",
+  "item.tutorial-mod.saul": "Saul",
   "item.tutorial-mod.chisel": "Chisel",
 
   "itemgroup.tutorial-mod.jail_bird_items": "Jail Bird Items",
-  "itemgroup.tutorial-mod.jail_bird_blocks": "Jail Bird Blocks"
+  "itemgroup.tutorial-mod.jail_bird_blocks": "Jail Bird Blocks",
+  "item.tutorial-mod.saul_snack": "Saul Snack",
+
+  "tooltip.tutorial-mod.magic_block.tooltip": "This Block Turns Jail Bird Fragments Into §9Diamonds§r When They Touch!",
+  "tooltip.tutorial-mod.magic_block.tooltip.1": "use a chisel to make this block",
+  "tooltip.tutorial-mod.chisel.shift_down": "This Chisels Blocks Into Bricks, It Also Turns Jail Bird Blocks Into Magic Blocks!",
+  "tooltip.tutorial-mod.chisel":"Press §eShift§r for more Information!"
 }

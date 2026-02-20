@@ -3,25 +3,34 @@ package net.boomer.tutorialmod.item.custom;
 import net.boomer.tutorialmod.block.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
+import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
+import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.world.World;
 
+import java.util.List;
 import java.util.Map;
 
 public class ChiselItem extends Item {
     private static final Map<Block, Block> CHISEL_MAP =
             Map.of(
-                    Blocks.STONE, Blocks.STONE_BRICKS,
+                    Blocks.COBBLESTONE, Blocks.STONE_BRICKS,
                     Blocks.END_STONE, Blocks.END_STONE_BRICKS,
-                    Blocks.OAK_LOG, ModBlocks.JAIL_BIRD_BLOCK,
-                    Blocks.GOLD_BLOCK, Blocks.NETHERITE_BLOCK
+                    ModBlocks.JAIL_BIRD_BLOCK, ModBlocks.MAGIC_BLOCK,
+                    Blocks.COBBLED_DEEPSLATE, Blocks.DEEPSLATE_BRICKS,
+                    Blocks.GRASS_BLOCK, ModBlocks.SAUL_BLOCK,
+                    Blocks.STONE, Blocks.COBBLESTONE,
+                    Blocks.DEEPSLATE, Blocks.COBBLED_DEEPSLATE,
+                    Blocks.SCULK_VEIN, ModBlocks.SAUL_BLOCK
             );
 
     public ChiselItem(Settings settings) {
@@ -48,5 +57,16 @@ public class ChiselItem extends Item {
         }
 
         return super.useOnBlock(context);
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+        if (Screen.hasShiftDown()) {
+                tooltip.add(Text.translatable("tooltip.tutorial-mod.chisel.shift_down"));
+        } else {
+            tooltip.add(Text.translatable("tooltip.tutorial-mod.chisel"));
+        }
+
+        super.appendTooltip(stack, context, tooltip, type);
     }
 }

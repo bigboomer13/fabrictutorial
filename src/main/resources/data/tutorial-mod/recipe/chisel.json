@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "tutorial-mod:jail_bird"
+    },
+    "x": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern":[
+    " # ",
+    " x ",
+    " x "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorial-mod:chisel"
+  }
+}

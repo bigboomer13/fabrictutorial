@@ -20,6 +20,7 @@ public class ModItemGroups {
                         entries.add(ModItems.BROKEN_JAIL_BIRD);
                         entries.add(ModItems.SAUL);
                         entries.add(ModItems.CHISEL);
+                        entries.add(ModItems.SAUL_SNACK);
 
                     }).build());
 
@@ -34,6 +35,8 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.JAIL_BIRD_ORE);
                         entries.add(ModBlocks.JAIL_BIRD_DEEPSLATE_ORE);
+
+                        entries.add(ModBlocks.MAGIC_BLOCK);
 
                     }).build());
 

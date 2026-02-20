@@ -16,8 +16,9 @@ public class ModItems {
     public static final Item BROKEN_JAIL_BIRD = registerItem("broken_jail_bird", new Item(new Item.Settings()));
     public static final Item SAUL = registerItem("saul", new Item(new Item.Settings()));
 
-    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
+    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(42)));
 
+    public static final Item SAUL_SNACK = registerItem("saul_snack", new Item(new Item.Settings().food(ModFoodComponents.SAUL_SNACK)));
 
 private static Item registerItem(String name, Item item) {
     return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);
