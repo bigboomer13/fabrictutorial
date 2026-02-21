@@ -20,5 +20,6 @@
   "tooltip.tutorial-mod.magic_block.tooltip": "This Block Turns Jail Bird Fragments Into §9Diamonds§r When They Touch!",
   "tooltip.tutorial-mod.magic_block.tooltip.1": "use a chisel to make this block",
   "tooltip.tutorial-mod.chisel.shift_down": "This Chisels Blocks Into Bricks, It Also Turns Jail Bird Blocks Into Magic Blocks!",
-  "tooltip.tutorial-mod.chisel":"Press §eShift§r for more Information!"
+  "tooltip.tutorial-mod.chisel":"Press §eShift§r for more Information!",
+  "tooltip.tutorial-mod.saul_snack.tooltip": "how would this work..?"
 }
